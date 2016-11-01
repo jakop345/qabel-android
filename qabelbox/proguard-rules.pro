@@ -15,3 +15,25 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+-dontwarn okhttp3.**
+-dontnote okhttp3.**
+
+-dontwarn com.squareup.picasso.**
+-dontnote com.squareup.picasso.**
+
+-dontnote org.sqlite.SQLite
+-dontwarn org.sqlite.SQLite
+
+-dontwarn de.qabel.**
+-dontwarn java.nio.**
+
+-dontwarn okio.**
+
+-dontwarn sun.misc.Unsafe
+
+-dontwarn org.jetbrains.anko.internals.AnkoInternals
+
+-dontwarn org.spongycastle.**
+
+-keep class org.spongycastle.**
